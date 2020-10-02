@@ -1,0 +1,5 @@
+this is writef
+this is readf 
+writef is nice
+readf is also nice
+be like writef readf

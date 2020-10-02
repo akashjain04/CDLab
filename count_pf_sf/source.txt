@@ -1,0 +1,5 @@
+this is printf
+this is scanf 
+printf is nice
+scanf is also nice
+be like printf scanf
