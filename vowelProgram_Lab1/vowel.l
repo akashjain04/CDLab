@@ -1,7 +1,7 @@
 %{
-#include<stdio.h>
-int vowels = 0;
-int consonants = 0;
+	#include<stdio.h>
+	int vowels = 0;
+	int consonants = 0;
 %}
 %%
 [aeiouAEIOU] { vowels++; }
