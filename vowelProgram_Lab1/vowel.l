@@ -10,7 +10,7 @@
 int main(){
 	printf("Enter the string: ");
 	yylex(); // To start scanning process
-	printf("Vowels = %d, Consonants = %d", vowels, consonants);
+	printf("\nVowels = %d,\nConsonants = %d\n", vowels, consonants);
 }
 int yywrap(){
 	return 1;

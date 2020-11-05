@@ -438,9 +438,9 @@ int yy_flex_debug = 0;
 char *yytext;
 #line 1 "vowel.l"
 #line 2 "vowel.l"
-#include<stdio.h>
-int vowels = 0;
-int consonants = 0;
+	#include<stdio.h>
+	int vowels = 0;
+	int consonants = 0;
 #line 445 "lex.yy.c"
 #line 446 "lex.yy.c"
 
@@ -1743,7 +1743,7 @@ void yyfree (void * ptr )
 int main(){
 	printf("Enter the string: ");
 	yylex(); // To start scanning process
-	printf("Vowels = %d, Consonants = %d", vowels, consonants);
+	printf("\nVowels = %d,\nConsonants = %d\n", vowels, consonants);
 }
 int yywrap(){
 	return 1;
