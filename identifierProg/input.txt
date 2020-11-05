@@ -1,0 +1,8 @@
+var
+a
+123abc
+abc123
+a$
+my_var
+12345
+0
