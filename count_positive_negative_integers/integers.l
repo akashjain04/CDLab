@@ -12,9 +12,9 @@
 
 int main() 
 { 
-    printf("Enter the data:\t"); 
+    printf("Enter the data: "); 
     yylex(); 
-    printf("Number of negative integers=%d,positive integers=%d,negative fractions=%d,positive fractions=%d",ni,pi,nf,pf); 
+    printf("\nNumber of negative integers = %d\npositive integers = %d\nnegative fractions = %d\npositive fractions = %d\n",ni,pi,nf,pf); 
 } 
 int yywrap(){ 
     return 1;   
